@@ -6,6 +6,7 @@
 	xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd">
 
 	<title>User Guide to the Wind Platform</title>
+	
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter-Intro.xml" />
 </book> 
 

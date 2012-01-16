@@ -3,15 +3,43 @@
 
 
 
-<chapter version="4.5" xmlns="http://docbook.org/ns/docbook"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude"
-	xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd"
+<chapter version="4.5" xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd"
 	id="at-Intro">
 	<title>Introdução</title>
-	
-	<para></para>
-	
-	
+
+	<para>
+		As Aplicações corporativas atuais são indiscutivelmente sofisticadas e utilizam tecnologias de ponta. No entanto,
+		um software corporativo que não resolve o problema de negócio não é útil para ninguém, não importa quanta tecnologia
+		foi utilizada em sua construção. Dessa forma, para construirmos um software de qualidade (não me refiro a bugs), que
+		realmente traga valor para o negócio em questão, devemos nos ater ao problema que se pretende resolver com este
+		software.
+	</para>
+	<para>
+		Para a maioria dos projetos de software, o foco principal deve ser no Domínio de Negócio e em sua lógica.
+		Para
+		tanto, deve-se desenvolver um Modelo de Dominio, e manter o foco na complexidade das regras de negócio que são
+		intrínsecas ao domínio em que o software está inserido. Pessoas que entendem de negócio e pessoas entendem de
+		tecnologia devem utilizar uma linguagem comum, com os mesmos termos e conceitos, para abstrair um cenário real e
+		transformá-lo em software.
+	</para>
+	<para>
+		A plataforma Wind baseia-se no fato de que em um software corporativo temos dois grandes
+		pilares que o sustentam.
+		Um Modelo de Dominio e Regras de Negócio. O modelo de domínio determina a estrutura dos
+		dados. Por outro lado, as
+		regras de negócio determinam como esses dados são manipulados afim de se obter um resultado.
+	</para>
+	<para>
+		Existem
+		muitos fatores que tornam um software complexo, e o objetivo da plataforma Wind é possibilitar que a
+		tecnologia
+		não
+		seja um deles.
+	</para>
+
+
+
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-Intro-Inspiration.xml" />
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-Intro-Motivation.xml" />
 </chapter>
