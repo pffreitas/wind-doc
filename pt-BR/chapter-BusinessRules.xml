@@ -6,11 +6,11 @@
 <chapter version="4.5" xmlns="http://docbook.org/ns/docbook"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude"
 	xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd"
-	id="at-Authoring_Tools">
-	<title>Authoring Tools</title>
+	id="at-BusinessRules">
+	<title>Regras de Negócio</title>
 	
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-BusinessRules_API.xml" />
 	
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-AuthoringSection.xml" />
 </chapter>
 
 

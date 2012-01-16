@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+
+<book version="4.5" xmlns="http://docbook.org/ns/docbook"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude"
+	xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd">
+
+	<title>Wind Platform - Guia do Usuário</title>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter-Intro.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter-BasicConcepts.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter-GettingStarted.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter-DomainObjects.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter-BusinessRules.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter-AppConfiguration.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter-Menu.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter-Internationalization.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter-Log.xml" />
+	
+	
+</book> 
+

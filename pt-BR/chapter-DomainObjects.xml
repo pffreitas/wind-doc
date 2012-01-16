@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+
+
+
+<chapter version="4.5" xmlns="http://docbook.org/ns/docbook"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude"
+	xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd"
+	id="at-DomainObjects">
+	<title>Domain Objects</title>
+	
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-DomainObjects_Anatomy.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-DomainObjects_Properties.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-DomainObjects_Attributes.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-DomainObjects_Operations.xml" />
+	
+</chapter>
+
+
+
+
