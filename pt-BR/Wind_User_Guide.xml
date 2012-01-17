@@ -6,6 +6,10 @@
 	xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd">
 
 	<title>Wind Platform - Guia do Usuário</title>
+	
+	
+	
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="BookInfo.xml"/>
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter-Intro.xml" />
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter-BasicConcepts.xml" />
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="chapter-GettingStarted.xml" />

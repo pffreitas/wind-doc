@@ -1,8 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
 
-<section version="4.5" xmlns="http://docbook.org/ns/docbook"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude"
-	xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd">
+<section version="4.5" xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd">
 	<title>Inspiração</title>
+
+	<para>
+		A inspiração por trás da plataforma Wind vem de alguns anos observando projetos de software corporativo. Tal
+		observação
+		levou a conclusão de que gastamos muito tempo e esforço resolvendo problemas técnicos que não tem relação
+		direta com o
+		problema que o software em questão pretende resolver. Aliado a isso, os estudos de Eric Evans sobre DDD
+		formam a base dos conceitos concretizados pela plataforma. Um bom Modelo de Domínio e Regras de Negócio escritas com
+		base em
+		uma linguagem única (Ubiquitous Language), refletindo o problema real, devem ser o principal foco do time de
+		desenvolvimento. Todas as outras complexidades técnicas são endereçadas à plataforma.
+	</para>
 </section>

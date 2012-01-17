@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE bookinfo PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+<bookinfo id="jdg-Wind_User_Guide">
+	<title>Wind Platform - Guia do Usuário</title>
+	<subtitle>Guia para o desenvolvimento de aplicativos Wind</subtitle>
+	<productname>Wind Platform</productname>
+	<productnumber>0.1a</productnumber>
+	<edition>0.1a</edition>
+	<pubsnumber>1</pubsnumber>
+	<abstract>
+		<para>Existem muitos fatores que tornam um software complexo, e o objetivo da plataforma Wind é possibilitar que a
+			tecnologia não seja um deles.</para>
+		<warning>
+			<title>Aviso</title>
+			<para>Este guia está em desenvolvimento. Existem textos incompletos e eventuais erros de gramática.</para>
+			<para>Caso deseje contribuir com correções, revisões, sugestões, traduções ou até mesmo capitulos, entre em contato
+				através do email pfreitas1@gmail.com</para>
+		</warning>
+	</abstract>
+
+
+
+	<corpauthor>
+
+	</corpauthor>
+	<copyright>
+		<year>2011</year>
+		<holder>Wind Technologies</holder>
+	</copyright>
+
+</bookinfo>
