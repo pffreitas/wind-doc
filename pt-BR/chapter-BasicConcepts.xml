@@ -3,12 +3,21 @@
 
 
 
-<chapter version="4.5" xmlns="http://docbook.org/ns/docbook"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude"
-	xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd"
+<chapter version="4.5" xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd"
 	id="at-BasicConcepts">
 	<title>Conceitos Básicos</title>
-	
+
+	<para>A premissa básica da plataforma é simplicidade. Ao remover os empecilhos e detalhes técnicos, reduzem-se as
+		partes móveis das aplicações tornando-as menos sujeitas a falhas.</para>
+	<para>
+		Portanto, ao construir um aplicativo Wind é necessário atentar-se para apenas duas coisas:
+		<emphasis>Objetos de Domínio</emphasis>
+		(Domain Objects) e
+		<emphasis>Regras de Negócio</emphasis>
+		(Business Rules).
+	</para>
+
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-BasicConcepts_Objects.xml" />
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-BasicConcepts_Rules.xml" />
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-BasicConcepts_ArchOverview.xml" />
