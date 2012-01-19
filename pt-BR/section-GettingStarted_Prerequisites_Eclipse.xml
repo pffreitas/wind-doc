@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+
+<section version="4.5" xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd">
+	<title>Eclipse</title>
+
+	<para>
+		Para iniciar o desenvolvimento de aplicativos Wind você precisará do
+		<citetitle>Eclipse for RCP and RAP Developers</citetitle>
+		instalado. A plataforma Wind é construída e testada usando a versão 3.6 (Helios), portanto recomenda-se que utilize
+		essa versão ou superior.
+	</para>
+
+	<procedure id="download-Eclipse">
+		<title>
+			Download
+			<citetitle>Eclipse for RCP and RAP Developers</citetitle>
+		</title>
+		<step>
+			<para>
+				Acesse a pagina de download em
+				<ulink url="http://www.eclipse.org/downloads/">eclipse.org/downloads</ulink>
+			</para>
+		</step>
+		<step>
+			<para>
+				Localize o item
+				<citetitle>Eclipse for RCP and RAP Developers</citetitle>
+				na lista de distribuições
+			</para>
+		</step>
+		<step>
+			<para>Escolha a versão apropriada para o seu sistema operacional e inicie o download</para>
+		</step>
+	</procedure>
+
+
+	<procedure id="instalacao-Eclipse">
+		<title>
+			Instalação
+		</title>
+		<step>
+			<para>
+				Descompacte o conteúdo do pacote em uma pasta conveniente
+			</para>
+		</step>
+		<step>
+			<para>
+				Execute o launcher nomeado "eclipse"
+			</para>
+		</step>
+	</procedure>
+</section>

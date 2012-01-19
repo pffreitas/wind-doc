@@ -9,8 +9,10 @@
 	id="at-GettingStarted">
 	<title>Getting Started</title>
 	
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-GettingStarted_10Min.xml" />
 	
+	
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-GettingStarted_Prerequisites.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-GettingStarted_Wind_Tooling.xml" />
 </chapter>
 
 
