@@ -3,16 +3,15 @@
 
 
 
-<chapter version="4.5" xmlns="http://docbook.org/ns/docbook"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude"
-	xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd"
+<chapter version="4.5" xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd"
 	id="at-GettingStarted">
 	<title>Getting Started</title>
-	
-	
-	
+
+
+
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-GettingStarted_Prerequisites.xml" />
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-GettingStarted_Wind_Tooling.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-GettingStarted_BasicWindApp.xml" />
 </chapter>
 
 

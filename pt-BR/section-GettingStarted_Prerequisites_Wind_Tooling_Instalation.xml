@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+
+<section version="4.5" xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd">
+	<title>Instalação</title>
+
+	<para>
+		A instalação pode ser realizada via Update Site conforme procedimento
+		<xref linkend="install-WindTooling" />
+	</para>
+
+	<procedure id="install-WindTooling">
+		<title>Instalação Wind Tooling</title>
+
+		<step>
+			No Eclipse IDE, escolha
+			<menuchoice>
+				<guimenu>Help</guimenu>
+				<guisubmenu>Install New Software</guisubmenu>
+			</menuchoice>
+		</step>
+
+		<step>
+			Clique no botão
+			<guilabel>Add...</guilabel>
+		</step>
+
+		<step>
+			Dê um nome
+		</step>
+
+		<step>
+			Preencha o campo
+			<guilabel>Location</guilabel>
+			com http://www.windplatform.com.br/tooling/update-site/
+		</step>
+
+		<step>
+			Na lista de plugins disponíveis, selecione
+			<application>Wind Tooling</application>
+			(atualmente versão 0.0.1)
+		</step>
+
+		<step>
+			Selecione
+			<guilabel>Next</guilabel>
+			, verifique os detalhes da instalação e selecione
+			<guilabel>Next</guilabel>
+			novamente.
+		</step>
+
+		<step>
+			Será apresentado os detalhes da licensa, caso concorde, selecione
+			<guilabel>I accept the terms of the license agreement</guilabel>
+			e clique em
+			<guilabel>Finish</guilabel>
+		</step>
+		
+		<step>
+			Aguarde o final da instalação e reinicie o Eclipse.
+		</step>
+	</procedure>
+
+
+
+</section>

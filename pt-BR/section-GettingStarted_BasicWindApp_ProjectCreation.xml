@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+
+<section version="4.5" xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd">
+	<title>Criando o projeto</title>
+
+
+	<para>
+		<application>Wind Tooling</application>
+		provê um template de projeto para aplicativos Wind pronto para usar.
+	</para>
+
+
+	<procedure>
+		<title>Criando um projeto de aplicativo Wind</title>
+
+		<step>
+			No Eclipse, acesse o menu
+			<menuchoice>
+				<guimenu>File</guimenu>
+				<guisubmenu>New</guisubmenu>
+				<guisubmenu>Other...</guisubmenu>
+			</menuchoice>
+		</step>
+		<step>
+			Escolha o item
+			<guilabel>Plug-in Project</guilabel>
+			sob a categoria
+			<guilabel>Plug-in Development</guilabel>
+		</step>
+		<step>
+			Preencha o campo
+			<guilabel>Project name</guilabel>
+			com o nome que achar conveniente
+		</step>
+
+		<step>
+			No grupo
+			<guilabel>Target Platform</guilabel>
+			escolha a opção
+			<guilabel>an OSGI Framework</guilabel>
+			e mantenha
+			<guilabel>Equinox</guilabel>
+			selecionado
+		</step>
+
+		<step>
+			Clique em
+			<guilabel>Next</guilabel>
+			e altere as configurações conforme desejar, no entanto para este exemplo, o padrão servirá.
+		</step>
+
+		<step>
+			Na lista
+			<guilabel>Available Templates</guilabel>
+			selecione o item
+			<guilabel>Basic Wind App</guilabel>
+			e clique em
+			<guilabel>Finish</guilabel>
+
+			<figure id="figure-BasicWindApp_ProjectCreation">
+				<title>
+					Selecionando o template
+					<guilabel>Basic Wind App</guilabel>
+				</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/wind_tooling_basic_app.png" format="PNG" />
+					</imageobject>
+				</mediaobject>
+			</figure>
+		</step>
+	</procedure>
+
+
+
+</section>

@@ -7,6 +7,8 @@
 
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-GettingStarted_Prerequisites_Java.xml" />
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-GettingStarted_Prerequisites_Eclipse.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-GettingStarted_Prerequisites_Wind_Tooling.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-GettingStarted_Prerequisites_Target_Platform.xml" />
 	
 	
 	
