@@ -6,10 +6,12 @@
 	<title>Wind Tooling</title>
 
 	<para>
-		<application>Wind Tooling</application> é um conjunto de plugins para Eclipse IDE que visam facilitar o desenvolvimento de aplicativos Wind.
+		<application>Wind Tooling</application>
+		é um conjunto de plugins para Eclipse IDE que visam facilitar o desenvolvimento de aplicativos Wind. Atualmente provê
+		apenas um Wizard para criação de projetos de Aplicativos Wind.
 	</para>
-	
+
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-GettingStarted_Prerequisites_Wind_Tooling_Instalation.xml" />
 
-	
+
 </section>

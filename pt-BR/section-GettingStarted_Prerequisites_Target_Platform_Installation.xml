@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+
+<section version="4.5" xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd">
+	<title>Instalação</title>
+
+	<procedure id="install-TargetPlatform">
+		<title>
+			Instalação da Target Platform para desenvolvimento de aplicativos Wind.
+		</title>
+		<step>
+			Baixe a última versão do Wind Platform em nossa
+			<ulink url="http://www.windplatform.com.br/downloads">Página de Downloads</ulink>
+		</step>
+		<step>
+			Descompacte o pacote em um local conveniente.
+		</step>
+		<step>
+			No Eclipse, acesse o menu
+			<menuchoice>
+				<guimenu>Window</guimenu>
+				<guisubmenu>Preferences</guisubmenu>
+			</menuchoice>, sob o grupo
+			<guilabel>Plug-in Development</guilabel>
+			escolha
+			<guilabel>Target Platform</guilabel>
+		</step>
+		<step>
+			Clique em
+			<guilabel>Add</guilabel>
+		</step>
+		<step>
+			Mantenha a opção
+			<guilabel>Nothing: Start with an empty target definition</guilabel>
+			selecionada e clique em
+			<guilabel>Next</guilabel>
+		</step>
+		<step>
+			Dê um Nome e clique em
+			<guilabel>Add</guilabel>
+		</step>
+		<step>
+			Mantenha a opção
+			<guilabel>Directory</guilabel>
+			selecionada em clique em
+			<guilabel>Next</guilabel>
+		</step>
+		<step>
+			Selecione o diretorio (até a pasta <filename>eclipse</filename>) em que descompactou o Wind Platform e clique em
+			<guilabel>Finish</guilabel>
+			
+			
+			<figure id="figure-TargetPlatformCreation">
+				<title>
+					Criando uma Target Platform para o desenvolvimento de aplicativos Wind.
+				</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/wind_target_platform.png" format="PNG" />
+					</imageobject>
+				</mediaobject>
+			</figure>
+		</step>
+		<step>
+			Marque a Target Platform recém criada como default e clique em <guilabel>Ok</guilabel>
+			
+			<figure id="figure-TargetPlatformCreated">
+				<title>
+					Target Platform criada.
+				</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="images/target_platform_created.png" format="PNG" />
+					</imageobject>
+				</mediaobject>
+			</figure>
+		</step>
+	</procedure>
+
+</section>

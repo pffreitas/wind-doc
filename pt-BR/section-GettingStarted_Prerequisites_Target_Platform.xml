@@ -5,7 +5,31 @@
 	xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd">
 	<title>Target Platform</title>
 
+	<para>
+		Target Platform é uma referencia para o conjunto de OSGi Bundles que serão utilizados para compilar e rodar o seu
+		aplicativo.
+		Ela descreve a plataforma para a qual você está desenvolvento, neste caso, Wind Platform. No
+		desenvolvimento de
+		aplicativos Wind, a Target Platform é usada para:
 
+		<itemizedlist>
+			<listitem>
+				<para>Compilar - Aplicativos Wind (que formalmente são OSGi Bundles) presentes no workdspace são construídos
+					utilizando a target platform como classpath. Dessa forma, você não precisa ter no seu workspace todos os OSGi
+					Bundles dos quais o seu aplicativo depende.
+				</para>
+			</listitem>
+			<listitem>
+				<para>Launch - Você poderá escolher um sub-conjunto dos OSGi Bundles presentes na Target Platform para incluir no
+					runtime.</para>
+			</listitem>
+			<listitem>
+				<para>Calcular Dependencias - Usando Target Platform você terá auxlio ao determinar os OSGi Bundles necessários para
+					compilar/rodar seu aplicativo.</para>
+			</listitem>
+		</itemizedlist>
 
+	</para>
 
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-GettingStarted_Prerequisites_Target_Platform_Installation.xml" />
 </section>
