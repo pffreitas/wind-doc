@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+
+
+
+<chapter version="4.5" xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd"
+	id="at-Glossary">
+	<title>Glossary</title>
+
+
+	<variablelist>
+		<varlistentry>
+			<term>A</term>
+			<listitem id="term-A">
+				<para>A — A is...</para>
+			</listitem>
+
+			<listitem id="term-Aa">
+				<para>Aa — Aa is...</para>
+			</listitem>
+		</varlistentry>
+		<varlistentry>
+			<term>B</term>
+			<listitem id="term-B">
+				<para>B — B is...</para>
+			</listitem>
+
+			<listitem id="term-Ba">
+				<para>Ba — Ba is...</para>
+			</listitem>
+		</varlistentry>
+	</variablelist>
+
+</chapter>
+
+
+
+
