@@ -8,28 +8,24 @@
 	id="at-Glossary">
 	<title>Glossary</title>
 
-
 	<variablelist>
+		
 		<varlistentry>
 			<term>A</term>
-			<listitem id="term-A">
-				<para>A — A is...</para>
-			</listitem>
 
-			<listitem id="term-Aa">
-				<para>Aa — Aa is...</para>
-			</listitem>
 		</varlistentry>
+		
+		
 		<varlistentry>
-			<term>B</term>
-			<listitem id="term-B">
-				<para>B — B is...</para>
+			<term>O</term>
+			<listitem id="term-DomainObject" xreflabel="Objeto de Domínio">
+				<para>Objeto de Domínio — ...</para>
 			</listitem>
 
-			<listitem id="term-Ba">
-				<para>Ba — Ba is...</para>
-			</listitem>
+			
 		</varlistentry>
+		
+		
 	</variablelist>
 
 </chapter>

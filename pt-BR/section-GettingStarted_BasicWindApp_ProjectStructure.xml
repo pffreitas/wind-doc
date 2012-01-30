@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+
+<section version="4.5" xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd">
+
+	<title>Entendendo a estrutura do projeto</title>
+
+	<para>O projeto criado possui a seguinte estrutura:</para>
+	<figure id="figure-BasicWindApp_ProjectStructure">
+		<title>
+			Estrutura do projeto
+			<application>Basic</application>
+		</title>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/basic_project_structure.png" format="PNG" />
+			</imageobject>
+		</mediaobject>
+	</figure>
+
+
+	<para>
+		Você deve atentar para três arquivos em particular:
+		<itemizedlist>
+			<listitem>
+				<filename>Activator.java</filename>
+			</listitem>
+			<listitem>
+				<filename>basic.dmo</filename>
+			</listitem>
+			<listitem>
+				<filename>wind-app.cfg</filename>
+			</listitem>
+		</itemizedlist>
+	</para>
+
+
+	<bridgehead wordsize="2">Activator</bridgehead>
+	<para>
+		Se você já possui experiência com desenvolvimento de OSGi Bundles ou plugins Eclipse, deve estar familiarizado
+		com o Activator. Ele é responsável pelo start e stop do bundle, neste caso um Wind App. No momento de inicialização
+		da
+		plataforma, ou quando o seu aplicativo é inicializado individualmente, o activator é chamado com a finalidade de
+		registrar o seu Wind App. A plataforma então irá fazer o reconhecimento do aplicativo e passar a
+		gerenciá-lo. 
+
+	</para>
+	<para>
+		De forma similar, acontece o stop do Wind App. Seja uma parada individual ou de toda a plataforma, o Activator
+		será acionado caso queira reagir de alguma forma a este evento.
+	</para>
+
+	<example id="example-BasicWindApp_Activator">
+		<title>Activator</title>
+		<programlisting language="Java"><xi:include parse="text"
+			href="extras/example-BasicWindApp_Activator.java_sample" xmlns:xi="http://www.w3.org/2001/XInclude" /></programlisting>
+	</example>
+
+	<para>
+		Note que a superclasse é
+		<classname>br.com.maisha.wind.lifecycle.WindActivator</classname>
+		. Isso é necessário pois no método
+		<methodname>start(BundleContext)</methodname>
+		há uma chamada para
+		<methodname>super.start(BundleContext, ClassLoader)</methodname>
+		passando o contexto (OSGi Context) e o classloader usado pelo seu Wind App.
+		O classloader será usado pela plataforma
+		para compilar seus Objetos de Domínio e executar suas Regras de Negócio.
+		O objetivo dessa chamada é registrar o seu
+		Wind App, permitindo que a plataforma o conheça e seja capaz de gerenciá-lo.
+	</para>
+
+
+	<bridgehead wordsize="2">basico.dmo</bridgehead>
+	<para>
+		Arquivos com a extensão *.dmo contém a definição de um
+		<xref linkend="term-DomainObject" />
+		.
+	</para>
+
+	<example id="example-BasicWindApp_DMO">
+		<title>Objeto de Domínio</title>
+		<programlisting language="XML"><xi:include parse="text" href="extras/example-BasicWindApp_DMO.dmo_sample"
+			xmlns:xi="http://www.w3.org/2001/XInclude" /></programlisting>
+	</example>
+
+	<para>
+		Neste exemplo definimos dois atributos
+		<literal>name</literal>
+		do tipo
+		<classname>java.lang.String</classname>
+		e
+		<literal>birthDate</literal>
+		do tipo
+		<classname>java.util.Date</classname>
+		.
+		Além disso, em cada atributo usamos propriedades para configurar a posição na tela (x,y), obrigatoriedade
+		(required),
+		tamanho (width), tipo de representação (presentation_type) e muitas outras. Para uma lista completa das
+		propriedades
+		disponíveis veja a
+		<xref linkend="sec-Attributes_Properties" />
+		.
+	</para>
+
+
+	<bridgehead wordsize="2">wind-app.cfg</bridgehead>
+	<para>
+		Por fim, o arquivo
+		<filename>wind-app.cfg</filename>
+		é utilizado para configurar aspectos gerais do seu aplicativo Wind tais como:
+
+		<itemizedlist>
+			<listitem>
+				Id e Nome
+			</listitem>
+			<listitem>
+				Internacionalização (
+				<xref linkend="at-Internationalization" />
+				)
+			</listitem>
+			<listitem>
+				Menu (
+				<xref linkend="at-Menu" />
+				)
+			</listitem>
+			<listitem>
+				Descrição, Copyright e Licensa
+			</listitem>
+			<listitem>
+				Entre outras...
+			</listitem>
+		</itemizedlist>
+	</para>
+
+
+	<example id="example-BasicWindApp_WindAppCfg">
+		<title>Exemplo de arquivo de configuração wind-app.cfg</title>
+		<programlisting language="XML"><xi:include parse="text"
+			href="extras/example-BasicWindApp_WindAppCfg.appCfg_sample" xmlns:xi="http://www.w3.org/2001/XInclude" /></programlisting>
+	</example>
+
+	<para>
+		Veja o
+		<xref linkend="at-AppConfiguration" />
+		para mais detalhes sobre configuração.
+	</para>
+
+</section>
+	

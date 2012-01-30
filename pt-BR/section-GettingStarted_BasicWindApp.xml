@@ -11,5 +11,7 @@
 
 
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-GettingStarted_BasicWindApp_ProjectCreation.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-GettingStarted_BasicWindApp_ProjectStructure.xml" />
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="section-GettingStarted_BasicWindApp_RunForestRun.xml" />
 
 </section>
