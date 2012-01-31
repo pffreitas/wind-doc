@@ -5,7 +5,49 @@
 	xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd">
 	<title>Run Forest! Run!</title>
 
+	<para>
+		Durante a inicialização do seu aplicativo Wind, a plataforma irá realizar a configuração de acordo com o arquivo
+		wind-app.cfg e complilar os Objetos de Domínio procurando pela extensão *.dmo. Em tempo de execução a plataforma
+		criará os menus descritos no arquivo de configuração para que seja possivel acessar os respectivos Objetos de Dominio.
+		Quando o usuário acessar um item de menu, será realizada a renderização do objeto requisitado. 
+	</para>
+	<para>
+		A figura
+		<xref linkend="figure-BasicWindApp_Running" />
+		demonstra a renderização do objeto
+		<classname>Basic</classname>
+		definido pelo aplicativo de exemplo criada anteriormente na
+		<xref linkend="sec-GettingStarted_BasicWindApp_ProjectCreation" />
+	</para>
 
-	
+
+	<figure id="figure-BasicWindApp_Running">
+		<title>
+			<application>Basic Wind App</application>
+		</title>
+		<mediaobject>
+			<imageobject>
+				<imagedata width="450" fileref="images/basic_app_running.png" format="PNG" />
+			</imageobject>
+		</mediaobject>
+	</figure>
+
+	<para>
+		O procedimento
+		<xref linkend="proc-RunningBasicSample" />
+		demonstra como executar um aplicativo Wind em ambiente de desenvolvimento.
+	</para>
+
+	<procedure id="proc-RunningBasicSample">
+		<title>Executando o aplicativo de exemplo</title>
+
+		<step>
+			No Eclipse, acesse o menu
+			<menuchoice>
+				<guimenu>Run</guimenu>
+				<guisubmenu>Run Configurations...</guisubmenu>
+			</menuchoice>
+		</step>
+	</procedure>
 
 </section>
