@@ -11,26 +11,6 @@
 		criará os menus descritos no arquivo de configuração para que seja possivel acessar os respectivos Objetos de Dominio.
 		Quando o usuário acessar um item de menu, será realizada a renderização do objeto requisitado. 
 	</para>
-	<para>
-		A figura
-		<xref linkend="figure-BasicWindApp_Running" />
-		demonstra a renderização do objeto
-		<classname>Basic</classname>
-		definido pelo aplicativo de exemplo criada anteriormente na
-		<xref linkend="sec-GettingStarted_BasicWindApp_ProjectCreation" />
-	</para>
-
-
-	<figure id="figure-BasicWindApp_Running">
-		<title>
-			<application>Basic Wind App</application>
-		</title>
-		<mediaobject>
-			<imageobject>
-				<imagedata width="450" fileref="images/basic_app_running.png" format="PNG" />
-			</imageobject>
-		</mediaobject>
-	</figure>
 
 	<para>
 		O procedimento
@@ -48,6 +28,63 @@
 				<guisubmenu>Run Configurations...</guisubmenu>
 			</menuchoice>
 		</step>
+		<step>
+			Crie um novo item sob a categoria
+			<guilabel>RAP Application</guilabel>
+		</step>
+		<step>
+			Se desejar, dê um nome melhor.
+		</step>
+		<step>
+			No campo
+			<guilabel>Entry Point or Application</guilabel>
+			informe
+			<option>view</option>
+		</step>
+		<step>
+			No grupo
+			<guilabel>Browser</guilabel>
+			marque a opção
+			<guilabel>External Browser</guilabel>
+		</step>
+		<step>
+			Clique em <guibutton>Run</guibutton>
+		</step>
 	</procedure>
+
+
+	<figure id="figure-BasicWindApp_Run_Configurations">
+		<title>
+			<application>Criando um <guilabel>Eclipse Launcher</guilabel> para inicializar a plataforma </application>
+		</title>
+		<mediaobject>
+			<imageobject>
+				<imagedata  fileref="images/basic_app_run_configurations.png" format="PNG" />
+			</imageobject>
+		</mediaobject>
+	</figure>
+
+
+	<para>
+		A figura
+		<xref linkend="figure-BasicWindApp_Running" />
+		demonstra a renderização do objeto
+		<classname>Basic</classname>
+		definido pelo aplicativo de exemplo criada anteriormente na
+		<xref linkend="sec-GettingStarted_BasicWindApp_ProjectCreation" />
+	</para>
+
+
+	<figure id="figure-BasicWindApp_Running">
+		<title>
+			<application>Basic Wind App</application>
+		</title>
+		<mediaobject>
+			<imageobject>
+				<imagedata width="450px" fileref="images/basic_app_running.png" format="PNG" />
+			</imageobject>
+		</mediaobject>
+	</figure>
+
 
 </section>
