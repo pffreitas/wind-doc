@@ -5,5 +5,89 @@
 	xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml/4.5/docbookx.dtd">
 	<title>Fazendo pequenas mudanças</title>
 
+
+	<section>
+		<title>Adicionando um Atributo</title>
+
+		<para>
+			Vamos alterar o nosso Objeto de Domínio
+			<guilabel>Basic</guilabel> incluindo dois novos atributos: <guilabel>Altura</guilabel> e <guilabel>Sexo</guilabel>.
+		</para>
+
+		<para>
+			O atributo <guilabel>Altura</guilabel> deve ser do tipo <classname>Double</classname>, posicionado abaixo do atributo <guilabel>Data de Nascimento</guilabel>
+			e deve ter um valor padrão de 1.75.
+		</para>
+		<para>
+			O atributo <guilabel>Sexo</guilabel> deve ser <classname>String</classname>, posicionado abaixo do atributo <guilabel>Altura</guilabel>, representado como ComboBox 
+			tendo como possíveis valores Masculino e Feminino.
+		</para>
+		
+		<para>
+			Sendo assim, nosso objeto pode ser representado da seguinte forma:
+			
+			<figure id="figure-BasicWindApp_UML_Representation">
+				<title>
+					Representação UML do Objeto de Domínio <guilabel>Basic</guilabel>
+				</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata  fileref="images/basic_uml_class.png" format="PNG" />
+					</imageobject>
+				</mediaobject>
+			</figure>
+		</para>
+		
+		<para>
+			Utilizando a linguagem <xref linkend="term-Terra"/> podemos representar o atributo <guilabel>Altura</guilabel> da seguinte forma:
+		</para>
+
+			<example id="example-BasicWindApp_Height_Attribute">
+				<title>Representação do atributo Altura</title>
+				<programlisting language="XML" startinglinenumber="1">
+Double altura "Altura"{
+	x:1 													// Coluna 1
+	y:3								 						// Linha 3
+	width: 40												// Largura
+	value: ${this.altura == null ? 1.75 : this.altura} 		// Valor padrao (utilizando Expression Language)
+}
+				</programlisting>
+			</example>
+		
+		<para>Na primeira linha definimos um atributo do tipo <classname>Double</classname>, e em seguida declaramos um código de referência. 
+		Esse código será utilizado para referenciar o atributo em Regras de Negócio. Por fim, declaramos o rótulo a ser utilizado na área de edição e grid de seleção.</para>
+		<para>Nas linhas 2-5 definimos 4 das muitas propriedades disponíveis para Atributos. Utilizamos as propriedades de posicionamento x e y para configurar o atributo de forma tabular na tela.
+		Além disso utilizamos width para especificar um tamanho para o campo de texto utilizado na representação gráfica do atributo. E por fim, utilizamos a propriedade value para determinar um valor default.  </para>
+		
+		
+		<para>De maneira similiar declaramos o atributo  <guilabel>Sexo</guilabel>:</para>
+		
+			<example id="example-BasicWindApp_Gender_Attribute">
+				<title>Representação do atributo Sexo</title>
+				<programlisting language="XML" startinglinenumber="1">
+String sexo "Sexo"{
+	x:1
+	y:4
+	width: 100
+	presentation_type: combo
+	validValues: ["Masculino", "Feminino"]
 	
+}
+				</programlisting>
+			</example>		
+
+		<para>No entanto, neste caso utilizamos a propriedade "presentantion_type" com a finalidade de representar o atributo como um ComboBox. 
+		Já na propriedade "validValues" definimos uma lista fixa de valores disponíveis para escolha do usuário.
+		Em casos mais complexos, é possível definir uma Regra de Negócio responsável por carregar as opções do ComboBox.</para>
+		
+		
+		<para>Com as alterações feitas, execute seu aplicativo Wind.</para>
+	</section>
+
+
+	<section>
+		<title>Criando uma Regra de Negócio</title>
+		<para></para>
+	</section>
+
 </section>

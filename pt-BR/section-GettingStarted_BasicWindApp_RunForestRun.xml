@@ -22,7 +22,7 @@
 		<title>Executando o aplicativo de exemplo</title>
 
 		<step>
-			No Eclipse, acesse o menu
+			No Eclipse, acesse o menu 
 			<menuchoice>
 				<guimenu>Run</guimenu>
 				<guisubmenu>Run Configurations...</guisubmenu>
