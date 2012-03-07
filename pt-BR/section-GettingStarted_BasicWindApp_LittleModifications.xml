@@ -87,7 +87,10 @@ String sexo "Sexo"{
 
 	<section>
 		<title>Criando uma Regra de Negócio</title>
-		<para></para>
+		<para>Regras de Negócio serão discutidas a fundo no capitulo <xref linkend="at-BusinessRules" />. 
+			No entanto, nesta seção será apresentado o conceito básico e um exemplo prático bem simples. </para>
+			
+		
 	</section>
 
 </section>
