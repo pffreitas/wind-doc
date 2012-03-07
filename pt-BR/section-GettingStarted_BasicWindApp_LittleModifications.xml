@@ -89,7 +89,15 @@ String sexo "Sexo"{
 		<title>Criando uma Regra de Negócio</title>
 		<para>Regras de Negócio serão discutidas a fundo no capitulo <xref linkend="at-BusinessRules" />. 
 			No entanto, nesta seção será apresentado o conceito básico e um exemplo prático bem simples. </para>
-			
+		<para>
+			Um Modelo de Domínio representa uma abstração de um negócio existente no mundo real. Ou seja, é a simplificação de um cenário que se deseja traduzir em software. 
+			Assim como no mundo real, os dados contidos neste modelo são dinâmicos. A todo momento eles são alterados de forma a produzir um resultado que faça sentido neste domínio.
+			Por exemplo, ao reservar uma passagem na primeira classe de um vôo partindo de São Paulo com destino a Londres, estamos manipulando os dados representados pelas entidades deste domínio com a 
+			finalidade de representar a ação que está ocorrendo no mundo real. É responsabilidade das Regras de Negócio descreverem essas ações. 
+		</para>
+		<para>
+			 Na Plataforma Wind as Regras de Negócio utilizam código para traduzir o comportamento do mundo real em software. Aplicando o principio da Responsabilidade Única, este comportamento deve ser realizar uma tarefa clara e objetiva. Isso aumenta a testabilidade do código, facilidando a manutenção e evolução.    
+		</para>	
 		
 	</section>
 
