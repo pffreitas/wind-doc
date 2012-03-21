@@ -33,7 +33,7 @@
 		<step>
 			Preencha o campo
 			<guilabel>Location</guilabel>
-			com http://www.windplatform.com.br/tooling/update-site/
+			com http://www.windplatform.com.br/update-site/
 		</step>
 
 		<step>

@@ -95,9 +95,48 @@ String sexo "Sexo"{
 			Por exemplo, ao reservar uma passagem na primeira classe de um vôo partindo de São Paulo com destino a Londres, estamos manipulando os dados representados pelas entidades deste domínio com a 
 			finalidade de representar a ação que está ocorrendo no mundo real. É responsabilidade das Regras de Negócio descreverem essas ações. 
 		</para>
+		<!-- para>
+			 Na Plataforma Wind as Regras de Negócio aplicam o principio da Responsabilidade Única. Ou seja, uma Regra de Negócio deve realizar uma tarefa clara e objetiva. 
+			 Dessa forma, aumenta-se a testabilidade do código, facilidando a manutenção e evolução.    
+		</para -->	
 		<para>
-			 Na Plataforma Wind as Regras de Negócio utilizam código para traduzir o comportamento do mundo real em software. Aplicando o principio da Responsabilidade Única, este comportamento deve ser realizar uma tarefa clara e objetiva. Isso aumenta a testabilidade do código, facilidando a manutenção e evolução.    
-		</para>	
+			Neste exemplo, criaremos uma regra responsável por calcular a diferença entre o atributo Data Nascimento do nosso Dominio Basic e a data corrente.
+		</para>
+		
+		<procedure id="procedure-LittleModifications_NewRule">
+			<title>
+				Criando uma Regra de Negócio
+			</title>
+			<step>
+				Abra a declaração do Dominio Basic feita no arquivo basic.dmo
+			</step>
+			<step>
+				<para>Criamos uma regra em nosso Dominio da seguinte forma:</para>
+				<programlisting language="XML" startinglinenumber="1">
+operation groovy CalculateDateDiff "Calcular Datas"{
+	file: br/com/maisha/wind/sample/rule/CalculateDateDiff.groovy
+}
+				</programlisting>
+			</step>
+			<step>
+				<para>Em seguida criamos a classe groovy <guilabel>br.com.maisha.wind.sample.rule.CalculateDateDiff</guilabel></para>
+				<programlisting language="XML" startinglinenumber="1">
+class CalculateDateDiff{
+
+	def ctx
+	def model
+	def meta
+	
+	def execute(){
+		def diff =  new Date() - model.birhtDate 
+		"${diff} dias se passaram desde ${model.birhtDate.pt_BR}".info()
+	}
+	
+}
+				</programlisting>
+			</step>
+			<step>Execute o aplicativo e veja o resultado.</step>
+		</procedure>
 		
 	</section>
 
