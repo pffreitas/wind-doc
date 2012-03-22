@@ -10,7 +10,7 @@ domain_object basic "Basic"{
 		width: 340
 	}
 	
-	Date birhtDate "Data de Nascimento"{
+	Date birthDate "Data de Nascimento"{
 		x:1
 		y:2
 		required:true

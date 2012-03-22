@@ -128,8 +128,8 @@ class CalculateDateDiff{
 	def meta
 	
 	def execute(){
-		def diff =  new Date() - model.birhtDate 
-		"${diff} dias se passaram desde ${model.birhtDate.pt_BR}".info()
+		def diff =  new Date() - model.birthDate 
+		"${diff} dias se passaram desde ${model.birthDate.pt_BR}".info()
 	}
 	
 }
